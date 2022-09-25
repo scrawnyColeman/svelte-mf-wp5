@@ -11,7 +11,7 @@ module.exports = (_, argv) => ({
     publicPath:
       argv.mode === "development"
         ? "http://localhost:8083/"
-        : "https://mfe-svelte-scrawnycoleman.vercel.app/",
+        : "https://svelte-mf-wp5-hl92.vercel.app/",
   },
 
   resolve: {
